@@ -252,12 +252,18 @@ ol {
 }
 
 .content__video-card-title {
-  font-family: Oswald, Arial, sans-serif;
-  font-size: 30px;
-  font-style: normal;
+  font-family: "Oswald", sans-serif;
   font-weight: 700;
-  line-height: 1;
+  font-size: 30px;
+  line-height: 100%;
+  letter-spacing: 0em;
   text-transform: uppercase;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 196px;
+  margin-bottom: 6px;
+  padding-top: 2px;
 }
 
 .content__video-card-description {
